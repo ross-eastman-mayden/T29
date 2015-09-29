@@ -1,0 +1,167 @@
+/* id is #
+class is . */
+
+/ width of margin 50px sides, like 7px top /
+
+/*minification: removing the whitespace (eg everything in one line) to make it faster to render,
+use https://www.cleancss.com/css-minify/ WILL REMOVE ALL OF YOUR CODE COMMENTS*/
+
+/*obfuscation: done to java (acts as further minification), renames variables (bad for you,
+good bc no one else can understand it) because it's source code*/
+
+/*no minification done to other things like PHP bc things...*/
+
+* {
+	box-sizing: border-box;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #2a2a2a;
+}
+/*I need space between the divs*/
+
+p {
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.subsec {
+	background-color: white;
+	display: inline-block;
+	width: 33.33%;
+	padding: 3px;
+
+}
+
+input[type="text"] {
+	display: block;
+	margin: auto auto auto;
+	border-radius: 3px;
+	background-color: white;
+}
+
+input[type="password"] {
+	display: block;
+	margin: auto auto auto;
+	border-radius: 3px;
+	background-color: white;
+}
+
+/*take off border things, change bg colour, increase padding, ideally change alignment and add graytext*/
+input[type="submit"] {
+	border-radius: 3px;
+	border: 0px;
+	font-size: 10px;
+	margin-bottom: 3px;
+	padding: 3px 5px 3px 5px;
+	background-color: whitesmoke;
+	color: #2a2a2a;
+}
+
+#titular {
+	background-color: #eeeeee;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 60px 40px 60px 40px;
+	border-radius: 5px;
+	/*left align at 90% width for header??*/
+}
+
+h1{
+	font-size: 50px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.subsecbod {
+	background-color: white;
+}
+
+.page_fill {
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.navbar {
+	background-color: black;
+	width: 90%;
+	margin: 0 auto 0 auto;
+	/*need to make it central*/
+}
+
+
+.navbar li {
+	top: 0px;
+	color: gainsboro;
+	background-color: black;
+	display: inline-block;
+	width: auto;
+	padding: 3px;
+	margin: 2px 8px 1px 5px;
+	font-size: 15px;
+	/*got to make it a set max length*/
+	/*needs to be all in one line, white font, black background*/
+}
+
+#top {
+	background-color: black;
+	/*need to stop the floaty*/
+}
+
+.button {
+	/*Basic Button*/
+	display: block;
+	height: 10%;
+	max-width: 40%;/*something per something*/
+ 	background: whitesmoke;
+	border: 1px solid darkgrey;
+	/*Text Styles*/
+	color: black;
+	text-align: center;
+	font-size: 13px;
+	/*CSS3 Styles*/
+	background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(lightgray));
+	border-radius: 3px; /*what do?*/
+	box-shadow: 0 1px 0 gray;
+	text-shadow: 0 1px 1px orange;
+	padding: 3px;
+	/*hover properties??*/
+}
+
+a.button {
+	text-decoration: none;
+}
+
+
+.lern-btn { /*need to change text shadows (remove) and make text more central*/
+	/*Basic Button*/
+	display: block;
+	height: 45px;
+	max-width: 120px;/*something per something*/
+	/*background-color: #0b4dc9;  1486c9*/
+	border: 1px solid #004cb4;
+	/*Text Styles*/
+	color: whitesmoke;
+	text-align: center;
+	line-height: 45px;
+	vertical-align: middle;
+	font-size: 15px;
+	/*CSS3 Styles*/
+	border-radius: 7px; /*what do?*/
+	box-shadow: 0 0 0 gray;
+	padding: 3px;
+	background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#1486c9), to(#0b4dc9));
+}
+
+a.lern-btn {
+	text-decoration: none;
+}
+li ul  {
+  display: none;
+}
+
+li:hover ul {
+  display: block;
+}
